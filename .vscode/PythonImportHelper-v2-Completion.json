@@ -136,12 +136,76 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "django.utils.timezone",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "django.utils.timezone",
         "description": "django.utils.timezone",
         "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
         "documentation": {}
     },
     {
@@ -177,11 +241,27 @@
         "documentation": {}
     },
     {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
         "label": "timezone",
         "importPath": "django.utils",
         "description": "django.utils",
         "isExtraImport": true,
         "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
         "documentation": {}
     },
     {
@@ -217,11 +297,51 @@
         "documentation": {}
     },
     {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
         "label": "render",
         "importPath": "django.shortcuts",
         "description": "django.shortcuts",
         "isExtraImport": true,
         "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
         "documentation": {}
     },
     {
@@ -250,11 +370,35 @@
         "documentation": {}
     },
     {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
         "label": "Path",
         "importPath": "pathlib",
         "description": "pathlib",
         "isExtraImport": true,
         "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
         "documentation": {}
     },
     {
@@ -277,325 +421,604 @@
     {
         "label": "Migration",
         "kind": 6,
-        "importPath": "lesson_2.home.migrations.0001_initial",
-        "description": "lesson_2.home.migrations.0001_initial",
+        "importPath": "lesson1.home.migrations.0001_initial",
+        "description": "lesson1.home.migrations.0001_initial",
         "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = []\n    operations = [\n        migrations.CreateModel(\n            name=\"Post\",\n            fields=[\n                (\n                    \"id\",\n                    models.BigAutoField(",
-        "detail": "lesson_2.home.migrations.0001_initial",
+        "detail": "lesson1.home.migrations.0001_initial",
         "documentation": {}
     },
     {
         "label": "Migration",
         "kind": 6,
-        "importPath": "lesson_2.home.migrations.0002_post_created_post_published",
-        "description": "lesson_2.home.migrations.0002_post_created_post_published",
+        "importPath": "lesson1.home.migrations.0002_post_created_post_published",
+        "description": "lesson1.home.migrations.0002_post_created_post_published",
         "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"home\", \"0001_initial\"),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name=\"post\",\n            name=\"created\",\n            field=models.DateTimeField(\n                auto_now_add=True, default=django.utils.timezone.now",
-        "detail": "lesson_2.home.migrations.0002_post_created_post_published",
+        "detail": "lesson1.home.migrations.0002_post_created_post_published",
         "documentation": {}
     },
     {
         "label": "Migration",
         "kind": 6,
-        "importPath": "lesson_2.home.migrations.0003_post_updated_alter_post_published",
-        "description": "lesson_2.home.migrations.0003_post_updated_alter_post_published",
+        "importPath": "lesson1.home.migrations.0003_post_updated_alter_post_published",
+        "description": "lesson1.home.migrations.0003_post_updated_alter_post_published",
         "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"home\", \"0002_post_created_post_published\"),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name=\"post\",\n            name=\"updated\",\n            field=models.DateTimeField(auto_now=True),\n        ),",
-        "detail": "lesson_2.home.migrations.0003_post_updated_alter_post_published",
+        "detail": "lesson1.home.migrations.0003_post_updated_alter_post_published",
         "documentation": {}
     },
     {
         "label": "Migration",
         "kind": 6,
-        "importPath": "lesson_2.home.migrations.0004_post_likes",
-        "description": "lesson_2.home.migrations.0004_post_likes",
+        "importPath": "lesson1.home.migrations.0004_post_likes",
+        "description": "lesson1.home.migrations.0004_post_likes",
         "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"home\", \"0003_post_updated_alter_post_published\"),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name=\"post\",\n            name=\"likes\",\n            field=models.IntegerField(default=0),\n        ),",
-        "detail": "lesson_2.home.migrations.0004_post_likes",
+        "detail": "lesson1.home.migrations.0004_post_likes",
         "documentation": {}
     },
     {
         "label": "Migration",
         "kind": 6,
-        "importPath": "lesson_2.home.migrations.0005_post_status",
-        "description": "lesson_2.home.migrations.0005_post_status",
+        "importPath": "lesson1.home.migrations.0005_post_status",
+        "description": "lesson1.home.migrations.0005_post_status",
         "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"home\", \"0004_post_likes\"),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name=\"post\",\n            name=\"status\",\n            field=models.CharField(\n                choices=[(\"DF\", \"Draft\"), (\"PB\", \"Published\")],",
-        "detail": "lesson_2.home.migrations.0005_post_status",
+        "detail": "lesson1.home.migrations.0005_post_status",
         "documentation": {}
     },
     {
         "label": "Migration",
         "kind": 6,
-        "importPath": "lesson_2.home.migrations.0006_talaba",
-        "description": "lesson_2.home.migrations.0006_talaba",
+        "importPath": "lesson1.home.migrations.0006_talaba",
+        "description": "lesson1.home.migrations.0006_talaba",
         "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"home\", \"0005_post_status\"),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name=\"Talaba\",\n            fields=[\n                (\n                    \"id\",",
-        "detail": "lesson_2.home.migrations.0006_talaba",
+        "detail": "lesson1.home.migrations.0006_talaba",
         "documentation": {}
     },
     {
         "label": "Migration",
         "kind": 6,
-        "importPath": "lesson_2.home.migrations.0007_alter_talaba_guruh_raqami",
-        "description": "lesson_2.home.migrations.0007_alter_talaba_guruh_raqami",
+        "importPath": "lesson1.home.migrations.0007_alter_talaba_guruh_raqami",
+        "description": "lesson1.home.migrations.0007_alter_talaba_guruh_raqami",
         "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"home\", \"0006_talaba\"),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name=\"talaba\",\n            name=\"guruh_raqami\",\n            field=models.IntegerField(),\n        ),",
-        "detail": "lesson_2.home.migrations.0007_alter_talaba_guruh_raqami",
+        "detail": "lesson1.home.migrations.0007_alter_talaba_guruh_raqami",
         "documentation": {}
     },
     {
         "label": "Migration",
         "kind": 6,
-        "importPath": "lesson_2.home.migrations.0008_alter_talaba_ortacha_baho",
-        "description": "lesson_2.home.migrations.0008_alter_talaba_ortacha_baho",
+        "importPath": "lesson1.home.migrations.0008_alter_talaba_ortacha_baho",
+        "description": "lesson1.home.migrations.0008_alter_talaba_ortacha_baho",
         "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"home\", \"0007_alter_talaba_guruh_raqami\"),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name=\"talaba\",\n            name=\"ortacha_baho\",\n            field=models.IntegerField(),\n        ),",
-        "detail": "lesson_2.home.migrations.0008_alter_talaba_ortacha_baho",
+        "detail": "lesson1.home.migrations.0008_alter_talaba_ortacha_baho",
         "documentation": {}
     },
     {
         "label": "HomeConfig",
         "kind": 6,
-        "importPath": "lesson_2.home.apps",
-        "description": "lesson_2.home.apps",
+        "importPath": "lesson1.home.apps",
+        "description": "lesson1.home.apps",
         "peekOfCode": "class HomeConfig(AppConfig):\n    default_auto_field = \"django.db.models.BigAutoField\"\n    name = \"home\"",
-        "detail": "lesson_2.home.apps",
+        "detail": "lesson1.home.apps",
         "documentation": {}
     },
     {
         "label": "Post",
         "kind": 6,
-        "importPath": "lesson_2.home.models",
-        "description": "lesson_2.home.models",
+        "importPath": "lesson1.home.models",
+        "description": "lesson1.home.models",
         "peekOfCode": "class Post(models.Model):\n    title = models.CharField(max_length=255)\n    slug = models.SlugField()\n    text = models.TextField()\n    likes = models.IntegerField(default=0)\n    published = models.DateTimeField(default=timezone.now)\n    created = models.DateTimeField(auto_now_add=True)\n    updated = models.DateTimeField(auto_now=True)\n    def __str__(self):\n        return self.title",
-        "detail": "lesson_2.home.models",
+        "detail": "lesson1.home.models",
         "documentation": {}
     },
     {
         "label": "Talaba",
         "kind": 6,
-        "importPath": "lesson_2.home.models",
-        "description": "lesson_2.home.models",
+        "importPath": "lesson1.home.models",
+        "description": "lesson1.home.models",
         "peekOfCode": "class Talaba(models.Model):\n    name = models.CharField(max_length=255)\n    second_name = models.CharField(max_length=255)\n    guruh_raqami = models.IntegerField()\n    fakultet_nomi = models.CharField(max_length=255)\n    ortacha_baho = models.IntegerField()\n    def __str__(self):\n        return self.name\nclass Meta:\n    ordering = ['-publish']    ",
-        "detail": "lesson_2.home.models",
+        "detail": "lesson1.home.models",
         "documentation": {}
     },
     {
         "label": "Meta",
         "kind": 6,
-        "importPath": "lesson_2.home.models",
-        "description": "lesson_2.home.models",
+        "importPath": "lesson1.home.models",
+        "description": "lesson1.home.models",
         "peekOfCode": "class Meta:\n    ordering = ['-publish']    \n    indexes = [\n        models.Index(fields=['-publish']),\n        ]",
-        "detail": "lesson_2.home.models",
+        "detail": "lesson1.home.models",
         "documentation": {}
     },
     {
         "label": "urlpatterns",
         "kind": 5,
-        "importPath": "lesson_2.home.urls",
-        "description": "lesson_2.home.urls",
+        "importPath": "lesson1.home.urls",
+        "description": "lesson1.home.urls",
         "peekOfCode": "urlpatterns = [\n    path('', views.first, name='first'),\n    path('second/', views.second, name='second'),\n]",
-        "detail": "lesson_2.home.urls",
+        "detail": "lesson1.home.urls",
         "documentation": {}
     },
     {
         "label": "first",
         "kind": 2,
-        "importPath": "lesson_2.home.views",
-        "description": "lesson_2.home.views",
+        "importPath": "lesson1.home.views",
+        "description": "lesson1.home.views",
         "peekOfCode": "def first(request):\n    html = \"\"\n    talabalar = Talaba.objects.filter(ortacha_baho__gt=60)\n    # post = Post.objects.first()\n    for i in talabalar:\n        html += f\"<li>{i} - Bali: {i.ortacha_baho}</li>\"\n    return HttpResponse(html)\ndef second(request):\n    html = \"\"\"\n        <h1>Second page </h1>",
-        "detail": "lesson_2.home.views",
+        "detail": "lesson1.home.views",
         "documentation": {}
     },
     {
         "label": "second",
         "kind": 2,
-        "importPath": "lesson_2.home.views",
-        "description": "lesson_2.home.views",
+        "importPath": "lesson1.home.views",
+        "description": "lesson1.home.views",
         "peekOfCode": "def second(request):\n    html = \"\"\"\n        <h1>Second page </h1>\n        <a href=\"/\">First page</a>\n    \"\"\"\n    return HttpResponse(html)",
-        "detail": "lesson_2.home.views",
+        "detail": "lesson1.home.views",
         "documentation": {}
     },
     {
         "label": "application",
         "kind": 5,
-        "importPath": "lesson_2.lesson_2.asgi",
-        "description": "lesson_2.lesson_2.asgi",
+        "importPath": "lesson1.lesson1.asgi",
+        "description": "lesson1.lesson1.asgi",
         "peekOfCode": "application = get_asgi_application()",
-        "detail": "lesson_2.lesson_2.asgi",
+        "detail": "lesson1.lesson1.asgi",
         "documentation": {}
     },
     {
         "label": "BASE_DIR",
         "kind": 5,
-        "importPath": "lesson_2.lesson_2.settings",
-        "description": "lesson_2.lesson_2.settings",
+        "importPath": "lesson1.lesson1.settings",
+        "description": "lesson1.lesson1.settings",
         "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = \"django-insecure-8il8(*_!(mm$n23pus12dl5jx@h6==e6n86%0+uc1r2yb2nl(7\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\nif 'CODESPACE_NAME' in os.environ:\n    codespace_name = os.getenv(\"CODESPACE_NAME\")",
-        "detail": "lesson_2.lesson_2.settings",
+        "detail": "lesson1.lesson1.settings",
         "documentation": {}
     },
     {
         "label": "SECRET_KEY",
         "kind": 5,
-        "importPath": "lesson_2.lesson_2.settings",
-        "description": "lesson_2.lesson_2.settings",
+        "importPath": "lesson1.lesson1.settings",
+        "description": "lesson1.lesson1.settings",
         "peekOfCode": "SECRET_KEY = \"django-insecure-8il8(*_!(mm$n23pus12dl5jx@h6==e6n86%0+uc1r2yb2nl(7\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\nif 'CODESPACE_NAME' in os.environ:\n    codespace_name = os.getenv(\"CODESPACE_NAME\")\n    codespace_domain = os.getenv(\"GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN\")\n    CSRF_TRUSTED_ORIGINS = [f'https://{codespace_name}-8000.{codespace_domain}']\n# Application definition\nINSTALLED_APPS = [",
-        "detail": "lesson_2.lesson_2.settings",
+        "detail": "lesson1.lesson1.settings",
         "documentation": {}
     },
     {
         "label": "DEBUG",
         "kind": 5,
-        "importPath": "lesson_2.lesson_2.settings",
-        "description": "lesson_2.lesson_2.settings",
+        "importPath": "lesson1.lesson1.settings",
+        "description": "lesson1.lesson1.settings",
         "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\nif 'CODESPACE_NAME' in os.environ:\n    codespace_name = os.getenv(\"CODESPACE_NAME\")\n    codespace_domain = os.getenv(\"GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN\")\n    CSRF_TRUSTED_ORIGINS = [f'https://{codespace_name}-8000.{codespace_domain}']\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",",
-        "detail": "lesson_2.lesson_2.settings",
+        "detail": "lesson1.lesson1.settings",
         "documentation": {}
     },
     {
         "label": "ALLOWED_HOSTS",
         "kind": 5,
-        "importPath": "lesson_2.lesson_2.settings",
-        "description": "lesson_2.lesson_2.settings",
+        "importPath": "lesson1.lesson1.settings",
+        "description": "lesson1.lesson1.settings",
         "peekOfCode": "ALLOWED_HOSTS = []\nif 'CODESPACE_NAME' in os.environ:\n    codespace_name = os.getenv(\"CODESPACE_NAME\")\n    codespace_domain = os.getenv(\"GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN\")\n    CSRF_TRUSTED_ORIGINS = [f'https://{codespace_name}-8000.{codespace_domain}']\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",",
-        "detail": "lesson_2.lesson_2.settings",
+        "detail": "lesson1.lesson1.settings",
         "documentation": {}
     },
     {
         "label": "INSTALLED_APPS",
         "kind": 5,
-        "importPath": "lesson_2.lesson_2.settings",
-        "description": "lesson_2.lesson_2.settings",
+        "importPath": "lesson1.lesson1.settings",
+        "description": "lesson1.lesson1.settings",
         "peekOfCode": "INSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    \"home\",\n]\nMIDDLEWARE = [",
-        "detail": "lesson_2.lesson_2.settings",
+        "detail": "lesson1.lesson1.settings",
         "documentation": {}
     },
     {
         "label": "MIDDLEWARE",
         "kind": 5,
-        "importPath": "lesson_2.lesson_2.settings",
-        "description": "lesson_2.lesson_2.settings",
-        "peekOfCode": "MIDDLEWARE = [\n    \"django.middleware.security.SecurityMiddleware\",\n    \"django.contrib.sessions.middleware.SessionMiddleware\",\n    \"django.middleware.common.CommonMiddleware\",\n    \"django.middleware.csrf.CsrfViewMiddleware\",\n    \"django.contrib.auth.middleware.AuthenticationMiddleware\",\n    \"django.contrib.messages.middleware.MessageMiddleware\",\n    \"django.middleware.clickjacking.XFrameOptionsMiddleware\",\n]\nROOT_URLCONF = \"lesson_2.urls\"",
-        "detail": "lesson_2.lesson_2.settings",
+        "importPath": "lesson1.lesson1.settings",
+        "description": "lesson1.lesson1.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    \"django.middleware.security.SecurityMiddleware\",\n    \"django.contrib.sessions.middleware.SessionMiddleware\",\n    \"django.middleware.common.CommonMiddleware\",\n    \"django.middleware.csrf.CsrfViewMiddleware\",\n    \"django.contrib.auth.middleware.AuthenticationMiddleware\",\n    \"django.contrib.messages.middleware.MessageMiddleware\",\n    \"django.middleware.clickjacking.XFrameOptionsMiddleware\",\n]\nROOT_URLCONF = \"lesson1.urls\"",
+        "detail": "lesson1.lesson1.settings",
         "documentation": {}
     },
     {
         "label": "ROOT_URLCONF",
         "kind": 5,
-        "importPath": "lesson_2.lesson_2.settings",
-        "description": "lesson_2.lesson_2.settings",
-        "peekOfCode": "ROOT_URLCONF = \"lesson_2.urls\"\nTEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",",
-        "detail": "lesson_2.lesson_2.settings",
+        "importPath": "lesson1.lesson1.settings",
+        "description": "lesson1.lesson1.settings",
+        "peekOfCode": "ROOT_URLCONF = \"lesson1.urls\"\nTEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",",
+        "detail": "lesson1.lesson1.settings",
         "documentation": {}
     },
     {
         "label": "TEMPLATES",
         "kind": 5,
-        "importPath": "lesson_2.lesson_2.settings",
-        "description": "lesson_2.lesson_2.settings",
+        "importPath": "lesson1.lesson1.settings",
+        "description": "lesson1.lesson1.settings",
         "peekOfCode": "TEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",\n                \"django.contrib.auth.context_processors.auth\",",
-        "detail": "lesson_2.lesson_2.settings",
+        "detail": "lesson1.lesson1.settings",
         "documentation": {}
     },
     {
         "label": "WSGI_APPLICATION",
         "kind": 5,
-        "importPath": "lesson_2.lesson_2.settings",
-        "description": "lesson_2.lesson_2.settings",
-        "peekOfCode": "WSGI_APPLICATION = \"lesson_2.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/4.1/ref/settings/#databases\nDATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",\n    }\n}\n# Password validation",
-        "detail": "lesson_2.lesson_2.settings",
+        "importPath": "lesson1.lesson1.settings",
+        "description": "lesson1.lesson1.settings",
+        "peekOfCode": "WSGI_APPLICATION = \"lesson1.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/4.1/ref/settings/#databases\nDATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",\n    }\n}\n# Password validation",
+        "detail": "lesson1.lesson1.settings",
         "documentation": {}
     },
     {
         "label": "DATABASES",
         "kind": 5,
-        "importPath": "lesson_2.lesson_2.settings",
-        "description": "lesson_2.lesson_2.settings",
+        "importPath": "lesson1.lesson1.settings",
+        "description": "lesson1.lesson1.settings",
         "peekOfCode": "DATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
-        "detail": "lesson_2.lesson_2.settings",
+        "detail": "lesson1.lesson1.settings",
         "documentation": {}
     },
     {
         "label": "AUTH_PASSWORD_VALIDATORS",
         "kind": 5,
-        "importPath": "lesson_2.lesson_2.settings",
-        "description": "lesson_2.lesson_2.settings",
+        "importPath": "lesson1.lesson1.settings",
+        "description": "lesson1.lesson1.settings",
         "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.UserAttributeSimilarityValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.MinimumLengthValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.CommonPasswordValidator\",\n    },",
-        "detail": "lesson_2.lesson_2.settings",
+        "detail": "lesson1.lesson1.settings",
         "documentation": {}
     },
     {
         "label": "LANGUAGE_CODE",
         "kind": 5,
-        "importPath": "lesson_2.lesson_2.settings",
-        "description": "lesson_2.lesson_2.settings",
+        "importPath": "lesson1.lesson1.settings",
+        "description": "lesson1.lesson1.settings",
         "peekOfCode": "LANGUAGE_CODE = \"en-us\"\nTIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
-        "detail": "lesson_2.lesson_2.settings",
+        "detail": "lesson1.lesson1.settings",
         "documentation": {}
     },
     {
         "label": "TIME_ZONE",
         "kind": 5,
-        "importPath": "lesson_2.lesson_2.settings",
-        "description": "lesson_2.lesson_2.settings",
+        "importPath": "lesson1.lesson1.settings",
+        "description": "lesson1.lesson1.settings",
         "peekOfCode": "TIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
-        "detail": "lesson_2.lesson_2.settings",
+        "detail": "lesson1.lesson1.settings",
         "documentation": {}
     },
     {
         "label": "USE_I18N",
         "kind": 5,
-        "importPath": "lesson_2.lesson_2.settings",
-        "description": "lesson_2.lesson_2.settings",
+        "importPath": "lesson1.lesson1.settings",
+        "description": "lesson1.lesson1.settings",
         "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
-        "detail": "lesson_2.lesson_2.settings",
+        "detail": "lesson1.lesson1.settings",
         "documentation": {}
     },
     {
         "label": "USE_TZ",
         "kind": 5,
-        "importPath": "lesson_2.lesson_2.settings",
-        "description": "lesson_2.lesson_2.settings",
+        "importPath": "lesson1.lesson1.settings",
+        "description": "lesson1.lesson1.settings",
         "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
-        "detail": "lesson_2.lesson_2.settings",
+        "detail": "lesson1.lesson1.settings",
         "documentation": {}
     },
     {
         "label": "STATIC_URL",
         "kind": 5,
-        "importPath": "lesson_2.lesson_2.settings",
-        "description": "lesson_2.lesson_2.settings",
+        "importPath": "lesson1.lesson1.settings",
+        "description": "lesson1.lesson1.settings",
         "peekOfCode": "STATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
-        "detail": "lesson_2.lesson_2.settings",
+        "detail": "lesson1.lesson1.settings",
         "documentation": {}
     },
     {
         "label": "DEFAULT_AUTO_FIELD",
         "kind": 5,
-        "importPath": "lesson_2.lesson_2.settings",
-        "description": "lesson_2.lesson_2.settings",
+        "importPath": "lesson1.lesson1.settings",
+        "description": "lesson1.lesson1.settings",
         "peekOfCode": "DEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
-        "detail": "lesson_2.lesson_2.settings",
+        "detail": "lesson1.lesson1.settings",
         "documentation": {}
     },
     {
         "label": "urlpatterns",
         "kind": 5,
-        "importPath": "lesson_2.lesson_2.urls",
-        "description": "lesson_2.lesson_2.urls",
+        "importPath": "lesson1.lesson1.urls",
+        "description": "lesson1.lesson1.urls",
         "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    path(\"\", include(\"home.urls\"))\n]",
-        "detail": "lesson_2.lesson_2.urls",
+        "detail": "lesson1.lesson1.urls",
         "documentation": {}
     },
     {
         "label": "application",
         "kind": 5,
-        "importPath": "lesson_2.lesson_2.wsgi",
-        "description": "lesson_2.lesson_2.wsgi",
+        "importPath": "lesson1.lesson1.wsgi",
+        "description": "lesson1.lesson1.wsgi",
         "peekOfCode": "application = get_wsgi_application()",
-        "detail": "lesson_2.lesson_2.wsgi",
+        "detail": "lesson1.lesson1.wsgi",
         "documentation": {}
     },
     {
         "label": "main",
         "kind": 2,
-        "importPath": "lesson_2.manage",
-        "description": "lesson_2.manage",
-        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault(\"DJANGO_SETTINGS_MODULE\", \"lesson_2.settings\")\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
-        "detail": "lesson_2.manage",
+        "importPath": "lesson1.manage",
+        "description": "lesson1.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault(\"DJANGO_SETTINGS_MODULE\", \"lesson1.settings\")\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "lesson1.manage",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "lesson2.lesson2.asgi",
+        "description": "lesson2.lesson2.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "lesson2.lesson2.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "lesson2.lesson2.settings",
+        "description": "lesson2.lesson2.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\nTEMPLATE_DIR = Path(BASE_DIR, 'templates')\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-wftd-gbfe2lk53uemugac4^*fiit%7f#t6hm0k5)(gt+57!m2w'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition",
+        "detail": "lesson2.lesson2.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATE_DIR",
+        "kind": 5,
+        "importPath": "lesson2.lesson2.settings",
+        "description": "lesson2.lesson2.settings",
+        "peekOfCode": "TEMPLATE_DIR = Path(BASE_DIR, 'templates')\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-wftd-gbfe2lk53uemugac4^*fiit%7f#t6hm0k5)(gt+57!m2w'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "lesson2.lesson2.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "lesson2.lesson2.settings",
+        "description": "lesson2.lesson2.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-wftd-gbfe2lk53uemugac4^*fiit%7f#t6hm0k5)(gt+57!m2w'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "lesson2.lesson2.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "lesson2.lesson2.settings",
+        "description": "lesson2.lesson2.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "lesson2.lesson2.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "lesson2.lesson2.settings",
+        "description": "lesson2.lesson2.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'teachers',",
+        "detail": "lesson2.lesson2.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "lesson2.lesson2.settings",
+        "description": "lesson2.lesson2.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'teachers',\n]\nMIDDLEWARE = [",
+        "detail": "lesson2.lesson2.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "lesson2.lesson2.settings",
+        "description": "lesson2.lesson2.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'lesson2.urls'",
+        "detail": "lesson2.lesson2.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "lesson2.lesson2.settings",
+        "description": "lesson2.lesson2.settings",
+        "peekOfCode": "ROOT_URLCONF = 'lesson2.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [TEMPLATE_DIR],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "lesson2.lesson2.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "lesson2.lesson2.settings",
+        "description": "lesson2.lesson2.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [TEMPLATE_DIR],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "lesson2.lesson2.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "lesson2.lesson2.settings",
+        "description": "lesson2.lesson2.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'lesson2.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "lesson2.lesson2.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "lesson2.lesson2.settings",
+        "description": "lesson2.lesson2.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "lesson2.lesson2.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "lesson2.lesson2.settings",
+        "description": "lesson2.lesson2.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "lesson2.lesson2.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "lesson2.lesson2.settings",
+        "description": "lesson2.lesson2.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "lesson2.lesson2.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "lesson2.lesson2.settings",
+        "description": "lesson2.lesson2.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "lesson2.lesson2.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "lesson2.lesson2.settings",
+        "description": "lesson2.lesson2.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "lesson2.lesson2.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "lesson2.lesson2.settings",
+        "description": "lesson2.lesson2.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "lesson2.lesson2.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "lesson2.lesson2.settings",
+        "description": "lesson2.lesson2.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "lesson2.lesson2.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "lesson2.lesson2.settings",
+        "description": "lesson2.lesson2.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "lesson2.lesson2.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "lesson2.lesson2.urls",
+        "description": "lesson2.lesson2.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('teachers.urls'))\n]",
+        "detail": "lesson2.lesson2.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "lesson2.lesson2.wsgi",
+        "description": "lesson2.lesson2.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "lesson2.lesson2.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "lesson2.teachers.migrations.0001_initial",
+        "description": "lesson2.teachers.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Teacher',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('ism', models.CharField(max_length=255)),",
+        "detail": "lesson2.teachers.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "lesson2.teachers.migrations.0002_alter_teacher_ilmiy_daraja_alter_teacher_kafedra",
+        "description": "lesson2.teachers.migrations.0002_alter_teacher_ilmiy_daraja_alter_teacher_kafedra",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('teachers', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='teacher',\n            name='ilmiy_daraja',\n            field=models.CharField(choices=[('Dotsent', 'Dotsent'), ('Doktor', 'Doktor'), ('Magistr', 'Magistr')], max_length=255),\n        ),",
+        "detail": "lesson2.teachers.migrations.0002_alter_teacher_ilmiy_daraja_alter_teacher_kafedra",
+        "documentation": {}
+    },
+    {
+        "label": "TeachersConfig",
+        "kind": 6,
+        "importPath": "lesson2.teachers.apps",
+        "description": "lesson2.teachers.apps",
+        "peekOfCode": "class TeachersConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'teachers'",
+        "detail": "lesson2.teachers.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Teacher",
+        "kind": 6,
+        "importPath": "lesson2.teachers.models",
+        "description": "lesson2.teachers.models",
+        "peekOfCode": "class Teacher(models.Model):\n    KAFEDRA_CHOICES = [\n        ('Aniq', 'Aniq fanlar'),\n        ('Tabiiy', 'Tabiiy fanlar'),\n        ('Maxsus', 'Maxsus fanlar'),\n    ]\n    ILMIY_CHOICES = [\n        ('Dotsent', 'Dotsent'),\n        ('Doktor', 'Doktor'),\n        ('Magistr', 'Magistr'),",
+        "detail": "lesson2.teachers.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "lesson2.teachers.urls",
+        "description": "lesson2.teachers.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.home, name='home'),\n    path('aniq/', views.aniq, name='aniq'),\n    path('tabiiy/', views.tabiiy, name='tabiiy'),\n    path('maxsus/', views.maxsus, name='maxsus'),\n]",
+        "detail": "lesson2.teachers.urls",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "lesson2.teachers.views",
+        "description": "lesson2.teachers.views",
+        "peekOfCode": "def home(request):\n    return render(request, 'home.html')\ndef aniq(request):\n    teachers = Teacher.objects.filter(kafedra='Aniq')\n    context = {'teachers': teachers}\n    return render(request, 'aniq.html', context)\ndef tabiiy(request):\n    teachers = Teacher.objects.filter(kafedra='Tabiiy')\n    context = {'teachers': teachers}\n    return render(request, 'tabiiy.html', context)",
+        "detail": "lesson2.teachers.views",
+        "documentation": {}
+    },
+    {
+        "label": "aniq",
+        "kind": 2,
+        "importPath": "lesson2.teachers.views",
+        "description": "lesson2.teachers.views",
+        "peekOfCode": "def aniq(request):\n    teachers = Teacher.objects.filter(kafedra='Aniq')\n    context = {'teachers': teachers}\n    return render(request, 'aniq.html', context)\ndef tabiiy(request):\n    teachers = Teacher.objects.filter(kafedra='Tabiiy')\n    context = {'teachers': teachers}\n    return render(request, 'tabiiy.html', context)\ndef maxsus(request):\n    teachers = Teacher.objects.filter(kafedra='Maxsus')",
+        "detail": "lesson2.teachers.views",
+        "documentation": {}
+    },
+    {
+        "label": "tabiiy",
+        "kind": 2,
+        "importPath": "lesson2.teachers.views",
+        "description": "lesson2.teachers.views",
+        "peekOfCode": "def tabiiy(request):\n    teachers = Teacher.objects.filter(kafedra='Tabiiy')\n    context = {'teachers': teachers}\n    return render(request, 'tabiiy.html', context)\ndef maxsus(request):\n    teachers = Teacher.objects.filter(kafedra='Maxsus')\n    context = {'teachers': teachers}\n    return render(request, 'maxsus.html', context)",
+        "detail": "lesson2.teachers.views",
+        "documentation": {}
+    },
+    {
+        "label": "maxsus",
+        "kind": 2,
+        "importPath": "lesson2.teachers.views",
+        "description": "lesson2.teachers.views",
+        "peekOfCode": "def maxsus(request):\n    teachers = Teacher.objects.filter(kafedra='Maxsus')\n    context = {'teachers': teachers}\n    return render(request, 'maxsus.html', context)",
+        "detail": "lesson2.teachers.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "lesson2.manage",
+        "description": "lesson2.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'lesson2.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "lesson2.manage",
         "documentation": {}
     }
 ]

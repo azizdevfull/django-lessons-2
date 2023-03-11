@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aniq Fan</title>
+</head>
+<body>
+  <h1>Aniq fan ustozlari</h1> 
+  <br>
+  
+  {% if teachers %}
+    
+    
+  <table border = "1" cellpadding = "5" cellspacing = "5">
+    <tr>
+       <th>Ism</th>
+       <th>Familya</th>
+       <th>Kafedra</th>
+       <th>Fan Nomi</th>
+       <th>Ilmiy Daraja</th>
+    </tr>
+    {% for teacher in teachers %}
+    <tr>
+      <td>{{ teacher.ism }}</td>
+      <td>{{ teacher.familya }}</td>
+      <td>{{ teacher.kafedra }}</td>
+      <td>{{ teacher.fan_nomi }}</td>
+      <td>{{ teacher.ilmiy_daraja }}</td>
+    </tr>
+    {% endfor %}
+ </table>
+{% else %}
+
+<h1>Ustozlar Yo'q</h1>
+
+ {% endif %}
+
+  <a href="/">Ortga</a>
+</body>
+</html>
